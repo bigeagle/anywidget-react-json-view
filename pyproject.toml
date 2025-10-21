@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "json-view-anywidget"
-version = "0.1.0"
+version = "0.1.1"
 description = "Interactive JSON viewer widget for Jupyter notebooks using React JSON View"
 readme = "README.md"
 requires-python = ">=3.7"
