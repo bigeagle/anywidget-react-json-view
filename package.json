@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "./node_modules/.bin/esbuild ./src/widget.tsx --format=esm --outdir=./bundle --bundle --watch",
-    "build": "./node_modules/.bin/esbuild ./src/widget.tsx --format=esm --outdir=./bundle --bundle"
+    "dev": "./node_modules/.bin/esbuild ./src/widget.tsx --format=esm --outdir=src/rjv_anywidget/static --bundle --watch",
+    "build": "./node_modules/.bin/esbuild ./src/widget.tsx --format=esm --outdir=src/rjv_anywidget/static --bundle"
   },
   "dependencies": {
     "react": "^18.2.0",
